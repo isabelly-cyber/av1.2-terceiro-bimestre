@@ -1,0 +1,190 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* TITULOS EM AZUL ROYAL */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.card-title {
+    color: #4169E1 !important;
+}
+
+/* MOVIMENTO DOS TITULOS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.card-title {
+    transition: 0.3s ease;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+.card-title:hover {
+    transform: translateY(-5px);
+    letter-spacing: 1px;
+}
+
+/* TEXTO */
+
+p {
+    transition: 0.3s ease;
+}
+
+p:hover {
+    transform: translateX(4px);
+}
+
+/* LINKS DA NAVBAR */
+
+.navbar .nav-link {
+    transition: 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #4169E1 !important;
+    transform: translateY(-3px);
+}
+
+/* NOME DO SITE */
+
+.navbar-brand {
+    transition: 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #4169E1 !important;
+    transform: scale(1.05);
+}
+
+/* CARDS */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+/* MOVIMENTO DOS CARDS */
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(65, 105, 225, 0.25) !important;
+}
+
+/* ICONES DOS CARDS */
+
+.card i {
+    color: #4169E1;
+    font-size: 45px;
+    transition: 0.4s ease;
+}
+
+.card:hover i {
+    transform: scale(1.2) rotate(5deg);
+}
+
+/* BOTOES */
+
+.btn {
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+/* BOTAO DARK */
+
+.btn-dark:hover {
+    background-color: #4169E1 !important;
+    border-color: #4169E1 !important;
+}
+
+/* BOTAO OUTLINE */
+
+.btn-outline-dark:hover {
+    background-color: #4169E1 !important;
+    border-color: #4169E1 !important;
+}
+
+/* IMAGENS */
+
+img {
+    max-width: 100%;
+    transition: 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+/* IMAGENS DOS CARDS */
+
+.card-img-top {
+    height: 280px;
+    object-fit: cover;
+}
+
+/* BADGES */
+
+.badge {
+    transition: 0.3s ease;
+}
+
+.badge:hover {
+    transform: scale(1.08);
+}
+
+/* CABECALHO */
+
+header {
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+/* ALERTAS */
+
+.alert {
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.alert:hover {
+    transform: translateY(-4px);
+}
+
+/* RODAPE */
+
+footer {
+    margin-top: 60px;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+    .display-4 {
+        font-size: 2.3rem;
+    }
+
+    .display-5 {
+        font-size: 2rem;
+    }
+
+    .card-img-top {
+        height: 230px;
+    }
+
+} 

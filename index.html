@@ -4,96 +4,260 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mulheres do Paquistão</title>
 
+    <title>Mulheres do Afeganistao</title>
+
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS proprio -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>Mulheres do Paquistão</h1>
-        <p>A situação das mulheres no Paquistão
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
 
-As mulheres paquistanesas enfrentam diversos desafios relacionados aos seus direitos, à educação, ao trabalho e à segurança. Apesar da existência de leis que reconhecem direitos das mulheres, muitas enfrentam dificuldades para exercer esses direitos na prática. Este site apresenta alguns dos principais problemas enfrentados atualmente e também mostra mulheres que lutam por mudanças e igualdade.</p>
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                Mulheres do Afeganistao
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">Historia</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="educacao.html">Educacao</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="direitos.html">Direitos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="situacaoatual.html">Situacao Atual</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="mulheresqueresistem.html">
+                            Mulheres que Resistem
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
+
+    <header class="bg-light text-center py-5">
+
+        <div class="container py-5">
+
+            <span class="badge text-bg-dark mb-3">
+                Projeto de Desenvolvimento Web
+            </span>
+
+            <h1 class="display-4 fw-bold">
+                Mulheres do Afeganistao
+            </h1>
+
+            <p class="lead mt-3">
+                Historia, educacao, direitos, desafios e resistencia.
+            </p>
+
+            <a href="historia.html" class="btn btn-dark btn-lg mt-3">
+                Conheca a historia
+            </a>
+
+        </div>
+
     </header>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
 
-    <a class="navbar-brand" href="#">Mulheres do Paquistão</a>
+    <!-- INTRODUCAO -->
 
-    <div class="navbar-nav">
-      <a class="nav-link active" href="index.html">Início</a>
-      <a class="nav-link" href="historia.html">História</a>
-      <a class="nav-link" href="situacao-atual.html">Situacao Atual</a>
-      <a class="nav-link" href="educacao.html">Educação</a>
-      <a class="nav-link" href="mulheresqueresistem.html">Mulheres que Resistem</a>
-      <a class="nav-link" href="direitos.html">Direitos</a>
-    </div>
+    <main class="container my-5">
 
-  </div>
-</nav>
+        <div class="row align-items-center g-5">
 
-<div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
+            <div class="col-lg-6">
 
-    <div class="carousel-item active">
-      <img src="imagens/mulheres1.jpg" class="d-block w-100" alt="Mulheres do Paquistão">
-    </div>
+                <h2 class="fw-bold mb-3">
+                    Sobre o projeto
+                </h2>
 
-    <div class="carousel-item">
-      <img src="imagens/mulheres2.jpg" class="d-block w-100" alt="Mulheres do Paquistão">
-    </div>
+                <p>
+                    Este site apresenta informacoes sobre a trajetoria das mulheres
+                    no Afeganistao, abordando sua historia, educacao, direitos,
+                    situacao atual e resistencia.
+                </p>
 
-    <div class="carousel-item">
-      <img src="imagens/mulheres3.jpg" class="d-block w-100" alt="Mulheres do Paquistão">
-    </div>
+                <p>
+                    O objetivo e compreender os desafios enfrentados pelas mulheres
+                    e conhecer suas historias e formas de resistencia.
+                </p>
 
-  </div>
+                <a href="mulheresqueresistem.html" class="btn btn-outline-dark">
+                    Conheca essas mulheres
+                </a>
 
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Anterior</span>
-  </button>
+            </div>
 
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Próxima</span>
-  </button>
-</div>
-    <main>
+            <div class="col-lg-6">
 
-        <section id="historia">
-            <h2>História</h2>
-            <p>
-                As mulheres do Paquistão possuem uma importante participação
-                na história e na sociedade do país.
-            </p>
-        </section>
+                <img src="imagens/mulheres1.jpg"
+                    class="img-fluid rounded shadow"
+                    alt="Mulheres do Afeganistao">
 
-        <section id="cultura">
-            <h2>Cultura</h2>
-            <p>
-                A cultura paquistanesa apresenta diferentes tradições,
-                costumes e formas de expressão.
-            </p>
-        </section>
+            </div>
 
-        <section id="conquistas">
-            <h2>Conquistas</h2>
-            <p>
-                Muitas mulheres paquistanesas se destacam na educação,
-                política, ciência, esportes e outras áreas.
-            </p>
-        </section>
+        </div>
+
+
+        <!-- CARDS -->
+
+        <div class="row g-4 mt-5">
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="card-body">
+
+                        <span class="badge text-bg-secondary mb-2">
+                            Historia
+                        </span>
+
+                        <h5 class="card-title">
+                            Historia
+                        </h5>
+
+                        <p class="card-text">
+                            Conheca as principais transformacoes vividas pelas
+                            mulheres ao longo da historia do Afeganistao.
+                        </p>
+
+                        <a href="historia.html" class="btn btn-dark">
+                            Saiba mais
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="card-body">
+
+                        <span class="badge text-bg-secondary mb-2">
+                            Educacao
+                        </span>
+
+                        <h5 class="card-title">
+                            Educacao
+                        </h5>
+
+                        <p class="card-text">
+                            Entenda a importancia da educacao para meninas
+                            e mulheres afegas.
+                        </p>
+
+                        <a href="educacao.html" class="btn btn-dark">
+                            Saiba mais
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="card-body">
+
+                        <span class="badge text-bg-secondary mb-2">
+                            Direitos
+                        </span>
+
+                        <h5 class="card-title">
+                            Direitos
+                        </h5>
+
+                        <p class="card-text">
+                            Conheca alguns dos direitos e das restricoes
+                            que afetam as mulheres.
+                        </p>
+
+                        <a href="direitos.html" class="btn btn-dark">
+                            Saiba mais
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </main>
 
-    <footer>
-    <p>Projeto escolar — Mulheres do Paquistão</p>
-</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FOOTER -->
+
+    <footer class="bg-dark text-white text-center py-4">
+
+        <p class="mb-0">
+            Mulheres do Afeganistao © 2026
+        </p>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-</html>
+
+</html> 
